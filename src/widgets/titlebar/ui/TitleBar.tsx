@@ -35,7 +35,7 @@ function TitleBar() {
           style={{ width: "16px", height: "16px", objectFit: "contain" }}
         />
         <Text fw={700} size="xs">
-          ElectroTransfer
+          Simple Transfer
         </Text>
       </Group>
 

@@ -1,15 +1,15 @@
 {
-  "name": "electrotransfer",
+  "name": "simple-transfer",
   "version": "3.0.0",
-  "description": "ElectroTransfer - Generador de Layouts de Transferencias - Aplicación de escritorio con React + TypeScript + Electron",
+  "description": "Simple Transfer - Generador de Layouts de Transferencias - Aplicación de escritorio con React + TypeScript + Electron",
   "main": "dist-electron/main.js",
-  "homepage": "https://github.com/GanzytoX/electro-transfer",
+  "homepage": "https://github.com/GonzaDev/simple-transfer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GanzytoX/electro-transfer.git"
+    "url": "https://github.com/GonzaDev/simple-transfer.git"
   },
   "bugs": {
-    "url": "https://github.com/GanzytoX/electro-transfer/issues"
+    "url": "https://github.com/GonzaDev/simple-transfer/issues"
   },
   "scripts": {
     "dev": "vite",
@@ -25,7 +25,8 @@
     "build:linux": "pnpm build && electron-builder --linux"
   },
   "keywords": [
-    "electrotransfer",
+    "simple-transfer",
+    "simpletransfer",
     "transferencias",
     "layouts",
     "spei",
@@ -36,7 +37,7 @@
     "fintech"
   ],
   "author": {
-    "name": "GanzytoX",
+    "name": "GonzaDev",
     "email": "gonzalo.gb11.ggb@gmail.com"
   },
   "license": "MIT",
@@ -61,8 +62,8 @@
     "xlsx": "^0.18.5"
   },
   "build": {
-    "appId": "com.ganzytox.electrotransfer",
-    "productName": "ElectroTransfer",
+    "appId": "com.gonzadev.simpletransfer",
+    "productName": "Simple Transfer",
     "directories": {
       "output": "dist",
       "buildResources": "assets"
